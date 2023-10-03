@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+}
+body main .div-main-primary-background {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: url(../images/bg-hero-desktop.svg) no-repeat var(--Very-Pale-Cyan);
+}
+body main .div-main-primary-background .div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 49px 80px 0 80px;
+}
+body main .div-main-primary-background .div-header img {
+    width: 200px;
+}
+body main .div-main-primary-background .div-header button {
+    width: 202px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--Very-Dark-Cyan);
+    background-color: #FFF;
+    cursor: url(../images/pointer.svg), auto;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+}
+body main .div-main-primary-background .div-header button:hover, body main .div-main-primary-background .div-center .div-left button:hover, body main .div-fifth button:hover {
+    opacity: .6;
+}
+body main .div-main-primary-background .div-center {
+    display: flex;
+    padding: 63px 83px 60px 80px;
+    gap: 68px;
+}
+body main .div-main-primary-background .div-center .div-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 515px;
+}
+body main .div-main-primary-background .div-center .div-left h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Very-Dark-Cyan);
+    letter-spacing: -.24px;
+    margin-top: 96px;
+}
+body main .div-main-primary-background .div-center .div-left p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: var(--Very-Dark-Cyan);
+    line-height: 27px;
+    margin-top: 28px;
+}
+body main .div-main-primary-background .div-center .div-left button {
+    width: 280px;
+    height: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--Very-Pale-Cyan);
+    background-color: var(--Pink);
+    cursor: url(../images/pointer.svg), auto;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+    margin-top: 32px;
+}
+body main .div-main-primary-background .div-center .img-center-right img, body main .div-second .img-second-right img, body main .div-third .img-third-left img, body main .div-fourth .img-fourth-right img {
+    max-width: 100%;
+}
+body main .div-second {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+    gap: 193px;
+    padding: 55px 35px 50px 35px;
+    margin: 160px 102px 0 102px;
+}
+body main .div-second .div-second-left, body main .div-fourth .div-fourth-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 100px 0 0 87px;
+}
+body main .div-second .div-second-left h2, body main .div-third .div-third-right h2, body main .div-fourth .div-fourth-left h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--Very-Dark-Cyan);
+}
+body main .div-second .div-second-left p, body main .div-third .div-third-right p, body main .div-fourth .div-fourth-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+    line-height: 27px;
+    margin-top: 12px;
+}
+body main .div-third {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+    padding: 55px 34px 50px 123px;
+    margin: 40px 102px 0 102px;
+}
+body main .div-third .img-third-left img {
+    padding: 15px 166px 0 0;
+}
+body main .div-third .div-third-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 99px 0;
+}
+body main .div-fourth {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+    gap: 186px;
+    padding: 57px 27px 61px 35px;
+    margin: 40px 102px 0 102px;
+}
+body main .div-fourth .img-fourth-right img {
+    padding-top: 6px;
+}
+body main footer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    color: var(--Very-Pale-Cyan);
+    background-color: var(--Very-Dark-Cyan);
+    padding: 192px 120px 65px 120px;
+    margin-top: 342px;
+}
+body main footer .div-fifth {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 281px;
+    background-color: #FFF;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    top: -186px;
+    right: 320px;
+}
+body main footer .div-fifth h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--Very-Dark-Cyan);
+    margin-top: 66px;
+}
+body main footer .div-fifth button {
+    width: 400px;
+    height: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Very-Pale-Cyan);
+    background-color: var(--Pink);
+    cursor: url(../images/pointer.svg), auto;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+}
+body main footer .div-img-logo {
+    width: 240px;
+}
+body main footer .div-footer-main {
+    display: flex;
+    margin-top: 42px;
+}
+body main footer .div-footer-main .div-footer-info {
+    display: flex;
+    flex-direction: column;
+}
+body main footer .div-footer-main .div-footer-info .div-location {
+    display: flex;
+    max-width: 370px;
+    gap: 27px;
+}
+body main footer .div-footer-main .div-footer-info .div-phone {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin: 28px 0 0 3px;
+}
+body main footer .div-footer-main .div-footer-info .div-email {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 26px 0 0 2px;
+}
+body main footer .div-footer-main .div-footer-info .div-location p, body main footer .div-footer-main .div-footer-info .div-phone p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    margin-top: -7px;
+}
+body main footer .div-footer-main .div-footer-info .div-email p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -5px;
+}
+body main footer .div-footer-main .ul-primary {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin: -6px 0 0 139px;
+}
+body main footer .div-footer-main .ul-second {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin: -6px 0 0 121px;
+}
+body main footer .div-footer-main .ul-icons {
+    display: flex;
+    gap: 13px;
+    margin: -6px 0 0 155px;
+}
+body main footer .div-footer-main .ul-primary li, body main footer .div-footer-main .ul-second li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    cursor: url(../images/pointer.svg), auto;
+    transition: .3s ease-in-out;
+}
+body main footer .div-footer-main .ul-primary li:hover, body main footer .div-footer-main .ul-second li:hover {
+    text-decoration: underline;
+}
+body main footer .div-footer-main .ul-icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 31px;
+    font-size: 14px;
+    color: var(--Very-Pale-Cyan);
+    border: 1px solid var(--Very-Pale-Cyan);
+    border-radius: 30px;
+    cursor: url(../images/pointer.svg), auto;
+    transition: .3s ease-in-out;
+}
+body main footer .div-footer-main .ul-icons li a:hover {
+    color: var(--Pink);
+    border: 1px solid var(--Pink);
+}
+body main footer p.p-huddle-reserved {
+    align-self: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: -.25px;
+    margin: 40px -40px 0 0;
+}
+body footer .attribution {
+    font-size: 11px; text-align: center;
+}
+body footer .attribution a {
+    color: hsl(228, 45%, 44%);
+}
